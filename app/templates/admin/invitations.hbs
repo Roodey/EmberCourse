@@ -12,7 +12,9 @@
     <tr>
       <td>{{invitation.id}}</td>
       <td>{{invitation.email}}</td>
+      <td><button class="btn btn-xs btn-danger" {{action 'deleteInvitation' invitation}}> Delete </button></td>
     </tr>
+
     {{/each}}
   </tbody>
 </table>

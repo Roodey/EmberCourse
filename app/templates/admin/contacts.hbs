@@ -13,6 +13,7 @@
   <td>{{contact.id}}</td>
   <td>{{contact.email}}</td>
   <td>{{contact.message}}</td>
+  <td><button class="btn btn-xs btn-danger" {{action 'deleteContact' contact}}>Delete </button></td>
 </tr>
 {{/each}}
   </tbody>
